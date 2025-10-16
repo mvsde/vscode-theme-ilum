@@ -1,0 +1,43 @@
+{
+	"name": "theme-ilum",
+	"displayName": "Ilum Theme",
+	"description": "Minimal VS Code theme based on Alabaster and Modern Default.",
+	"version": "0.1.0",
+	"publisher": "fynn",
+	"license": "ACSL",
+	"categories": [
+		"Themes"
+	],
+	"author": {
+		"name": "Fynn Ellie Be",
+		"email": "post@fynn.be",
+		"url": "https://fynn.be/"
+	},
+	"homepage": "https://github.com/mvsde/vscode-theme-ilum",
+	"bugs": {
+		"url": "https://github.com/mvsde/vscode-theme-ilum/issues",
+		"email": "post@fynn.be"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mvsde/vscode-theme-ilum.git"
+	},
+	"qna": "https://github.com/mvsde/vscode-theme-ilum/discussions",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#3B3B3B",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.105.0"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ilum Light Theme",
+				"uiTheme": "vs",
+				"path": "./themes/ilum-light-color-theme.json"
+			}
+		]
+	}
+}
