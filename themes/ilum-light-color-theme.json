@@ -36,14 +36,14 @@
 		},
 		{
 			"name": "Global definitions",
-			"scope": ["entity.name"],
+			"scope": ["entity.name", "variable.other.placeable"],
 			"settings": {
 				"foreground": "#325CC0"
 			}
 		},
 		{
 			"name": "Punctuation",
-			"scope": ["punctuation"],
+			"scope": ["punctuation", "keyword.placeable"],
 			"settings": {
 				"foreground": "#8D8D8D"
 			}
@@ -64,7 +64,13 @@
 		},
 		{
 			"name": "Properties",
-			"scope": ["entity.name.tag", "meta.objectliteral", "support.type.property-name"],
+			"scope": [
+				"entity.name.tag.yaml",
+				"meta.objectliteral",
+				"support.type.property-name",
+				"variable.other.selector-item",
+				"support.function.selector-item"
+			],
 			"settings": {
 				"foreground": "#3B3B3B"
 			}

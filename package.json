@@ -2,7 +2,7 @@
 	"name": "theme-ilum",
 	"displayName": "Ilum Theme",
 	"description": "Minimal VS Code theme based on Alabaster and Modern Default.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "fynn",
 	"license": "ACSL",
 	"categories": [
@@ -29,6 +29,7 @@
 		"theme": "dark"
 	},
 	"engines": {
+		"node": "24",
 		"vscode": "^1.105.0"
 	},
 	"contributes": {
